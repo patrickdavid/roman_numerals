@@ -10,7 +10,8 @@ def ronums(numbers)
         end
       end
     end
-  my_number
+  answer = my_number.join
+  answer
 end
 
 puts ronums(2)
