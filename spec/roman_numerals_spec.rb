@@ -14,4 +14,7 @@ describe ('ronums') do
   it('turns the number 9 into the roman numeral IX') do
     expect(ronums(9)).to(eq("IX"))
   end
+  it('turns the number 4 into the roman numeral IV') do
+    expect(ronums(4)).to(eq('IV'))
+  end
 end

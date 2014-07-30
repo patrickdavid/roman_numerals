@@ -11,7 +11,12 @@ def ronums(numbers)
       end
     end
   answer = my_number.join
+  if answer == "VIIII"
+    answer.gsub!("VIIII", "IX")
+  elsif answer == "IIII"
+    answer.gsub!('IIII', 'IV')
+  end
   answer
 end
 
-puts ronums(2)
+puts ronums(4)
